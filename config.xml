@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "bo.com.orangegroup.pgtest"
+        version   = "1.0.0">
+		
+    <name>SMS Sender</name>
+    <description> 
+        Somo una revista virual con el mejor contenido en vida social y entretenimiento de Santa Cruz
+    </description>
+	
+    <author href="https://www.orangegroup.com.bo" email="info@orangegroup.com.bo">
+        Orange Group SRL
+    </author>
+    
+    <access origin="*" />
+    <preference name="phonegap-version" value="3.6.3" />
+	
+    <preference name="Fullscreen" value="false" />
+    <preference name="orientation" value="portrait" />  
+    <preference name="useBrowserHistory" value="true" />
+    <preference name="exit-on-suspend" value="false" /> 
+    <preference name="showTitle" value="false" /> 
+    
+</widget>
