@@ -21,8 +21,7 @@
     <preference name="useBrowserHistory" value="true" />
     <preference name="exit-on-suspend" value="false" /> 
     <preference name="showTitle" value="false" /> 
-    
-    
+   
     <gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.media-capture" />
@@ -41,7 +40,7 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-    <gap:plugin name="com.pushbots.push" version="1.2.3" source="plugins.cordova.io" />
+    
     <gap:plugin name='org.crosswalk.engine' version='1.3.0' source='pgb' />
    
 </widget>
