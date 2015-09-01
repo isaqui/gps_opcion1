@@ -14,7 +14,7 @@
     </author>
     
     <access origin="*" />
-    <preference name='phonegap-version' value='cli-5.1.1' />
+    <preference name='phonegap-version' value='4.0.2' />
 	
     <preference name="Fullscreen" value="false" />
     <preference name="orientation" value="portrait" />  
