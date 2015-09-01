@@ -14,6 +14,7 @@
     </author>
     
     <access origin="*" />
+    
     <preference name='phonegap-version' value='cli-5.1.1' />
 	
     <preference name="Fullscreen" value="false" />
@@ -22,6 +23,7 @@
     <preference name="exit-on-suspend" value="false" /> 
     <preference name="showTitle" value="false" /> 
     
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name='org.crosswalk.engine'  source='pgb' />
     
     <plugin name="cordova-plugin-whitelist" />
