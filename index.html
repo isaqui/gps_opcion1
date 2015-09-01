@@ -1,9 +1,20 @@
 <html>
-  
   <head>
     <title>Phonegap</title>
   </head>
   <body>
     Hola Como estas
+    
+        <!-- Phonegap -->  
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript">
+            function onDeviceReady()
+            {
+              
+            } 
+            window.addEventListener('load', function () {
+                document.addEventListener("deviceready", onDeviceReady, false);
+            }, false);
+        </script>
   </body>
 </html>
